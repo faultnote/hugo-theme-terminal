@@ -62,6 +62,7 @@
 
 .open .menu__dropdown {
   display: flex;
+  width: max-content;
 }
 
 .menu__dropdown > li {
