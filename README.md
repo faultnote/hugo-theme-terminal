@@ -154,7 +154,7 @@ The theme doesn't require any advanced configuration. Just copy:
 
 ```toml
 baseurl = "/"
-languageCode = "en-us"
+locale = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
@@ -228,7 +228,7 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "Terminal"
 
     [languages.en.params]
